@@ -67,7 +67,7 @@ p {
 
 #body_wrapper {	
 	width: 100%;
-	background: url('../pk2.png') no-repeat 50px fixed;
+	background: url('./pk2.png') no-repeat 50px fixed;
 	font-size: .8em;	
 }
 
