@@ -43,7 +43,9 @@ p {
 
 .hidethis {
 	display: none;
+
 }
+
 
 .clearthis {
 	margin : 0px;
@@ -57,7 +59,7 @@ p {
 /* ++++++++++++++++++++ Images  ++++++++++++++++++++ */
 
 .tb_center img {	
-	border: 1px rgb(142, 219, 243) solid;
+	border: 1px rgb(225, 230, 222) solid;
 }
 .tb_center {
 	text-align: center;
@@ -87,11 +89,11 @@ p {
 
 #body_container_c {
 	color: inherit;
-	background-color: #927611;
-	border-left: rgb(49, 221, 184) 6px ridge;
-	border-right: rgb(49, 221, 184) 6px ridge;
-	border-top: rgb(49, 221, 184) 6px ridge ;
-	border-bottom: rgb(49, 221, 184) 6px ridge ;
+	background-color: none;
+	border-left: rgb(49, 52, 221) 9px ridge;
+	border-right: rgb(17, 68, 177) 3px ridge;
+	border-top: rgb(21, 62, 199) 5px ridge ;
+	border-bottom: rgb(40, 25, 204) 5px ridge ;
 	border-radius: 30px;
 }
 .pk{
@@ -102,19 +104,23 @@ p {
 #page_header {
 	padding-bottom: 2px;
 	color: inherit;
-	background-color: #b3ab78;
+	
+	background-color: #3409ac;
 	border-radius: 160px;
 }
 
 #page_header h1{
 	position: relative;
-	top: 1px;
-	color: #08123d;
-	text-align: center;
+	top: 2px;
+	margin-top: 10px;
+	color: #140aa596;
+	text-align: center ;
 	width: 100%;
 	height: 50px;
-	background: url('YES.jpg') no-repeat 50% 50%;
+	background: url('.YES.jpg') no-repeat 50% 50%;
 }
+
+
 
 /* +++++++f+++++++++++++ Page Content ++++++++++++++++++++ */
 #page_content {
