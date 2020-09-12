@@ -5,12 +5,14 @@
 	padding: 0px;
 }
 
+
 body {
-	color: rgb(255, 255, 255);
+	color: rgb(255, 191, 241);
 	background-color: #08123d;
-	font-family: 'verdana', 'helvetica', sans-serif;
+	font-family:  Comic Sans MS, Comic Sans, cursive;
 	font-size: 100%;
 	text-align: center;
+	text-shadow: 2px 2px 2px rgb(220, 82, 255);
 }
 
 a {
@@ -76,14 +78,15 @@ p {
 /* +++++++++++++++++ +++ Body Container ++++++++++++++++++++ */
 
 #body_container {
-	float: right;
+	float: left;
 	position: relative;
-	left: -290px;
+	right: -250px;
+
 }
 
 #body_container_b {
 	padding: 15px 0px;
-	width:496px;
+	width:996px;
 	margin-top: 19px;
 }
 
@@ -102,7 +105,7 @@ p {
 /* ++++++++++++++++++++ Page Header ++++++++++++++++++++ */
 
 #page_header {
-	padding-bottom: 2px;
+	padding-bottom: 4px;
 	color: inherit;
 	
 	background-color: #3409ac;
@@ -117,7 +120,7 @@ p {
 	text-align: center ;
 	width: 100%;
 	height: 50px;
-	background: url('.YES.jpg') no-repeat 50% 50%;
+	background: url('YES.jpg') no-repeat 50% 50%;
 }
 
 
@@ -126,13 +129,10 @@ p {
 #page_content {
 	padding: 15px 17px 10px;
 	font-weight: bold;
+	font-size: 1.4em;
 	text-align: left;
 }
 
-.link_readmore {
-	padding: 35px 0px 10px;
-	text-align: right;
-}
 
  /*++++++++++++++++++++ Navigation Menu ++++++++++++++++++++ */
 
@@ -141,7 +141,7 @@ p {
 	float: left;
 	margin-top: 68px;	
 	left: 77px;
-	width: 166px;	
+	width: 200px;	
 	font-size: 1.4em;
 	font-weight: bold;
 }
@@ -153,7 +153,7 @@ p {
 
 #navmenu_c {
 	color: inherit;
-	background-color: #412fe6ad;
+	background-color: none;
 	border-left: rgb(71, 41, 240) 6px solid;
 	border-radius: 30px;
 }
@@ -175,7 +175,7 @@ p {
 
 #navmenu li a:hover {
 	color: orange;
-	background-color: #1464c0;
+	background-color: #148fc0;
 	border-radius: 80px;
 	font-size: large;	
 }
@@ -186,7 +186,7 @@ p {
 /* ++++++++++++++++++++ Page Footer ++++++++++++++++++++ */
 #page_footer {
 	padding: 20px 0px;
-	font-size: 0.9em;
+	font-size: 3.0em;
 	font-weight: bold;
-	color: rgb(212, 73, 247);
+	color: rgb(66, 243, 50);
 }
