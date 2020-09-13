@@ -1,4 +1,3 @@
-
 /* ++++++++++++++++++++ Common Styles ++++++++++++++++++++ */
 * {
 	margin: 0px;
@@ -109,7 +108,7 @@ p {
 	padding-bottom: 4px;
 	color: inherit;
 	
-	background-color: #3409ac;
+	background-color: #001ea1;
 	border-radius: 160px;
 }
 
@@ -117,11 +116,11 @@ p {
 	position: relative;
 	top: 2px;
 	margin-top: 0px;
-	color: #140aa596;
+	color: #aaffea;
 	text-align: center ;
 	width: 100%;
 	height: 50px;
-	background: url('YES.jpg') no-repeat  50%;
+	
 }
 
 
@@ -155,7 +154,7 @@ p {
 #navmenu_c {
 	color: inherit;
 	background-color: none;
-	border-left: rgb(32, 6, 180) 6px solid;
+	border-left: rgb(71, 41, 240) 6px solid;
 	border-radius: 30px;
 }
 
@@ -165,7 +164,7 @@ p {
 }
 
 #navmenu li {
-	border-top: none ;
+	border-top: rgba(1, 4, 15, 0.39) 1px solid;
 }
 
 #navmenu li a {
@@ -176,7 +175,7 @@ p {
 
 #navmenu li a:hover {
 	color: orange;
-	background-color: blue;
+	background-color: #148fc0;
 	border-radius: 80px;
 	font-size: large;	
 }
